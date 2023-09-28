@@ -132,7 +132,7 @@ void jogo(string nomeDoJogador){
  
     ///Variáveis Gerais
     char tabuleiro[10][10],mascara[10][10];             //Tabuleiro do Jogo
-    int linha,coluna;                                   //Auxiliares de navegação
+    int coluna;                                   //Auxiliares de navegação
     int linhaJogada, colunaJogada;                      //Posicao escolhida pelo jogador
     int estadoDeJogo = 1;                               //1 = Jogo Acontecendo, 0 = Fim de Jogo
     int pontos = 0;                                     //Pontuação do Jogador
